@@ -1,0 +1,12 @@
+:root{--ink:#14161a;--muted:#5b6170;--line:#e6e8ee;--brand:#c8102e;--bg:#fff}
+*{box-sizing:border-box}body{margin:0;font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--brand)}header,main,footer{max-width:760px;margin:0 auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding-top:22px;padding-bottom:22px;border-bottom:1px solid var(--line)}
+header a{color:var(--ink);text-decoration:none;font-weight:700}nav a{margin-left:18px;font-weight:500;color:var(--muted)}
+h1{font-size:2.1rem;line-height:1.2;margin:36px 0 8px}h2{margin-top:34px}.lede{color:var(--muted);font-size:1.15rem;margin-top:0}
+.buy{display:inline-block;background:var(--brand);color:#fff;padding:14px 26px;border-radius:10px;text-decoration:none;font-weight:700;font-size:1.05rem;margin:18px 0}
+.price{font-size:1.4rem;font-weight:700;margin-right:14px}.box{border:1px solid var(--line);border-radius:14px;padding:18px 22px;margin:28px 0;background:#fafbfc}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin:20px 0 40px}
+.card{border:1px solid var(--line);border-radius:12px;padding:16px;text-decoration:none;color:var(--ink)}.card b{display:block;margin-bottom:6px}.card span{color:var(--muted);font-size:.92rem}
+blockquote{border-left:3px solid var(--line);margin:0;padding-left:16px;color:var(--muted)}code{background:#f2f3f6;padding:1px 5px;border-radius:4px}
+footer{color:var(--muted);font-size:.85rem;padding-top:30px;padding-bottom:40px;border-top:1px solid var(--line);margin-top:50px}
